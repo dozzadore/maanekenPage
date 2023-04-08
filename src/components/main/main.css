@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Fruktur&family=Poppins:wght@300;400;500;600;700;800;900&family=Special+Elite&display=swap');
+
+.main {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 0;
+    color: #fff;
+    font-size: 96px;
+    font-family: 'Special Elite', cursive;
+    letter-spacing: -7px;
+    overflow: hidden
+}
+
+
+
+
+.mainImg{
+    z-index: 1;
+    width: 150px;
+    height: 250px;
+    position: relative;
+    bottom: -40px;
+    right: 30px;
+    background: url(../images/face.png);
+    background-size: cover;
+    animation: next 2s  ease;
+}
+
+@keyframes next {
+
+    from {
+        right: -150px;
+    }
+    
+    to {
+        right:30px;
+    }
+    
+    }

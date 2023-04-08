@@ -1,4 +1,10 @@
 .App {
+  widows: 100%;
+  height: 100vh;
   text-align: center;
+  overflow: hidden;
+  background: url(./components/images/original.jpg);
+  background-size: cover;
+
 }
 
